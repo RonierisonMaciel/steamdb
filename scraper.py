@@ -1,3 +1,11 @@
+"""
+References:
+https://github.com/SeleniumHQ/selenium/issues/10813
+https://stackoverflow.com/questions/71190483/how-can-i-use-selenium-webdriver-for-firefox-geckodrive
+https://selenium-python.readthedocs.io/getting-started.html
+https://selenium-python.readthedocs.io/navigating.html
+"""
+
 import time
 import json
 from selenium import webdriver
