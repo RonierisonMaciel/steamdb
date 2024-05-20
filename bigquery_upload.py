@@ -1,3 +1,12 @@
+""" 
+References:
+https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv
+https://googleapis.dev/python/google-api-core/latest/exceptions.html
+https://cloud.google.com/bigquery/docs/loading-data-local
+https://cloud.google.com/bigquery/docs/loading-data
+https://cloud.google.com/bigquery/docs/loading-data-local#loading_data_from_a_local_file
+"""
+
 import os
 from google.cloud import bigquery
 from google.api_core.exceptions import GoogleAPIError
@@ -9,7 +18,7 @@ def configure_bigquery_client(service_account_json: str) -> bigquery.Client:
         client = bigquery.Client.from_service_account_json(service_account_json)
         return client
     except GoogleAPIError as e:
-        raise RuntimeError(f"Failed to configure BigQuery client: {e}")
+        raise RuntimeError(f"Falha ao configurar o cliente do BigQuery: {e}")
 
 def load_csv_to_bigquery(client: bigquery.Client, dataset_id: str, table_id: str, csv_file_path: str) -> NoReturn:
     """Carrega dados de um arquivo CSV para uma tabela BigQuery."""
@@ -27,7 +36,7 @@ def load_csv_to_bigquery(client: bigquery.Client, dataset_id: str, table_id: str
         job.result()  # Aguardar a conclusão do job
         print(f'Tabela {table_id} carregada com sucesso no dataset {dataset_id}.')
     except (FileNotFoundError, GoogleAPIError) as e:
-        raise RuntimeError(f"Failed to load CSV to BigQuery: {e}")
+        raise RuntimeError(f"Falha ao carregar CSV no BigQuery: {e}")
 
 def main() -> NoReturn:
     """Caminho do arquivo JSON de credenciais."""
