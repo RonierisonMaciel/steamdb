@@ -63,11 +63,10 @@ Os dados podem ser visualizados diretamente no Google BigQuery, exportados para 
 ### Link no Google Sheets e Google Data Studio
 
 1. [Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vSA7wehUbLUoav79bJbNoSRczZiDtufYtRlomfQjvWTqO5xZ_0NNh6HpHEWUZdeNhm3vdGwAub1hMck/pubhtml)
-
 2. [Google Data Studio](https://lookerstudio.google.com/reporting/7c18a400-aa79-46a2-afdc-f96b35fc63da)
 
 ## Arquitetura da Solução
 
-1. **Raspagem dos Dados:** O script `scraper.py` utiliza bibliotecas como `requests` e `BeautifulSoup` para extrair informações de promoções do SteamDB.
+1. **Raspagem dos Dados:** O script `scraper.py` utiliza a biblioteca `Selenium` para extrair informações de promoções do SteamDB.
 2. **Armazenamento no BigQuery:** O script `bigquery_upload.py` utiliza a biblioteca `google-cloud-bigquery` para enviar os dados extraídos para uma tabela específica no BigQuery.
 3. **Visualização no Google Sheets:** Os dados no BigQuery podem ser conectados ao Google Sheets para criar visualizações dinâmicas.
