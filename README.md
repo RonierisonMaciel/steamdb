@@ -21,8 +21,8 @@ O projeto tem por objetivo extrair dados de promoções do site SteamDB e armaze
 1. Clone este repositório:
 
     ```bash
-    git clone https://github.com/seuusuario/steamdb-sales-scraper.git
-    cd steamdb-sales-scraper
+    git clone https://github.com/seuusuario/steamdb.git
+    cd steamdb
     ```
 
 2. Instale as dependências:
