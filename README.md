@@ -2,6 +2,8 @@
 
 O projeto tem por objetivo extrair dados de promoções do site SteamDB e armazená-los no Google BigQuery para posterior visualização e análise.
 
+![Steam logo](https://s.zst.com.br/cms-assets/2021/03/steam-capa.jpg)
+
 ## Estrutura do Projeto
 
 - `scraper.py`: Script responsável por realizar a raspagem dos dados de promoções do site SteamDB.
