@@ -60,11 +60,9 @@ Os dados podem ser visualizados diretamente no Google BigQuery, exportados para 
 
 ### Link no Google Sheets e Google Data Studio
 
-<!-- 1. [Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vSA7wehUbLUoav79bJbNoSRczZiDtufYtRlomfQjvWTqO5xZ_0NNh6HpHEWUZdeNhm3vdGwAub1hMck/pubhtml) -->
+1. [Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vSA7wehUbLUoav79bJbNoSRczZiDtufYtRlomfQjvWTqO5xZ_0NNh6HpHEWUZdeNhm3vdGwAub1hMck/pubhtml)
 
-1. <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSA7wehUbLUoav79bJbNoSRczZiDtufYtRlomfQjvWTqO5xZ_0NNh6HpHEWUZdeNhm3vdGwAub1hMck/pubhtml" target="_blank">Google Sheets</a>
-
-2. <a href="https://lookerstudio.google.com/reporting/7c18a400-aa79-46a2-afdc-f96b35fc63da" target="_blank">Google Data Studio</a>
+2. [Google Data Studio](https://lookerstudio.google.com/reporting/7c18a400-aa79-46a2-afdc-f96b35fc63da)
 
 ## Arquitetura da Solução
 
