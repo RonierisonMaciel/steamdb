@@ -1,6 +1,6 @@
 # SteamDB Sales Scraper
 
-O projeto tem como objetivo extrair dados de promoções do site SteamDB e armazená-los no Google BigQuery para posterior visualização e análise.
+O projeto tem por objetivo extrair dados de promoções do site SteamDB e armazená-los no Google BigQuery para posterior visualização e análise.
 
 ## Estrutura do Projeto
 
@@ -56,11 +56,12 @@ O projeto tem como objetivo extrair dados de promoções do site SteamDB e armaz
 
 ## Visualização dos Dados
 
-Os dados podem ser visualizados diretamente no Google BigQuery ou exportados para um Google Sheets.
+Os dados podem ser visualizados diretamente no Google BigQuery, exportados para um Google Sheets ou Google Data Studio.
 
-### Link do Google Sheets:
+### Link no Google Sheets e Google Data Studio
 
-[Link para o Google Sheets](https://docs.google.com/spreadsheets/d/SEU-LINK-PUBLICO)
+[Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vSA7wehUbLUoav79bJbNoSRczZiDtufYtRlomfQjvWTqO5xZ_0NNh6HpHEWUZdeNhm3vdGwAub1hMck/pubhtml)
+[Google Data Studio](https://lookerstudio.google.com/reporting/7c18a400-aa79-46a2-afdc-f96b35fc63da)
 
 ## Arquitetura da Solução
 
